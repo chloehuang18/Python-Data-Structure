@@ -21,3 +21,13 @@ Link
 
 
 Tables
+
+Use table to do version control
+
+Documentation is important for md files too
+
+|Name |ID |Pay|
+|-----|----|----|
+|Bob |123  |100| 
+|Sue |123  |200|
+|Tim |123  |300|

@@ -21,8 +21,8 @@ What kind of errors are common when using the data structure? -->
 #
 ### Examples
 #
-### Challenage
-Download [Set Challenage](set_challenage.py)
+### Challenge
+Download [Set Challenge](set_challenage.py)
 #
 ### Answer
 Download [Set Answer](set_answer.py)

@@ -23,8 +23,8 @@ What kind of errors are common when using the data structure? -->
 ### Examples
 
 #
-### Challenage
-Download [Stack Challenage](stack_challenage.py)
+### Challenge
+Download [Stack Challenge](stack_challenage.py)
 #
 ### Answer
 Download [Stack Answer](stack_answer.py)

@@ -24,8 +24,8 @@ Recursion
 ### Examples
 
 #
-### Challenage
-Download [Tree Challenage](tree_challenage.py)
+### Challenge
+Download [Tree Challenge](tree_challenage.py)
 
 #
 ### Answer

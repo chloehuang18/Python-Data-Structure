@@ -19,13 +19,21 @@ What kind of errors are common when using the data structure? -->
 ### How does it work
 #### Push
 ![PushCode](https://github.com/chloehuang18/Python-Data-Structure/blob/master/push_code.PNG)
+#
 ![PushResult](https://github.com/chloehuang18/Python-Data-Structure/blob/master/push_result.PNG)
 #
+
+#### Pop
+![PushCode](https://github.com/chloehuang18/Python-Data-Structure/blob/master/pop_code.PNG)
+#
+![PushResult](https://github.com/chloehuang18/Python-Data-Structure/blob/master/pop_result.PNG)
+
+
 ### Performance
 
 #
 ### Examples
-[Example](stack_example.py)
+[Example File](stack_example.py)
 
 ### Real life examples
 

@@ -12,7 +12,7 @@ What kind of errors are common when using the data structure? -->
 # Stack
 
 ### What is Stack
-![Pancakes](../master/myFolder/image.png)
+![Pancakes](https://github.com/chloehuang18/Python-Data-Structure/blob/master/money-stack.PNG)
 
 
 #

@@ -12,6 +12,8 @@ What kind of errors are common when using the data structure? -->
 # Stack
 
 ### What is Stack
+![Pancakes](../master/myFolder/image.png)
+
 
 #
 ### How does it work
@@ -22,9 +24,23 @@ What kind of errors are common when using the data structure? -->
 #
 ### Examples
 
+### Real life examples
+
+1. Converting infix to postfix expressions.
+2. Undo operation is also carried out through stacks.
+3. Syntaxes in languages are parsed using stacks.
+4. Forward – backward surfing in browser
+5. History of visited websites
+6. Message logs and all messages you get are arranged in stack
+7. Call logs, E-mails, Google photos’ any gallery , YouTube downloads, Notifications ( latest appears first )
+
+
 #
 ### Challenge
 Download [Stack Challenge](stack_challenage.py)
 #
 ### Answer
 Download [Stack Answer](stack_answer.py)
+
+
+https://www.geeksforgeeks.org/real-time-application-of-data-structures/

@@ -12,17 +12,20 @@ What kind of errors are common when using the data structure? -->
 # Stack
 
 ### What is Stack
-![Pancakes](https://github.com/chloehuang18/Python-Data-Structure/blob/master/money-stack.PNG)
+![MoneyStack](https://github.com/chloehuang18/Python-Data-Structure/blob/master/money-stack.PNG)
 
 
 #
 ### How does it work
-
+#### Push
+![PushCode](https://github.com/chloehuang18/Python-Data-Structure/blob/master/push_code.PNG)
+![PushResult](https://github.com/chloehuang18/Python-Data-Structure/blob/master/push_result.PNG)
 #
 ### Performance
 
 #
 ### Examples
+[Example](stack_example.py)
 
 ### Real life examples
 
@@ -33,7 +36,6 @@ What kind of errors are common when using the data structure? -->
 5. History of visited websites
 6. Message logs and all messages you get are arranged in stack
 7. Call logs, E-mails, Google photos’ any gallery , YouTube downloads, Notifications ( latest appears first )
-
 
 #
 ### Challenge

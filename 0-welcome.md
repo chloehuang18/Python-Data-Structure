@@ -25,7 +25,8 @@ It is a important tool for programmers to anayze the cost of the algorithm. Ever
 #### Runtime Basics - The performance of the data structure
 
 1. What is Bog O notation 
-How efficient is an algorithm or a pice of code? Big O notation is a methematiccal method of specifying the performance of an algorithm to answer that question. It predicts the execution time as the size of the problem grows. 
+How efficient is an algorithm or a pice of code? 
+Big O notation is a methematiccal method of specifying the performance of an algorithm to answer that question. It predicts the execution time as the size of the problem grows. 
 
 - The letter O is used because the growth rate of a function is also referred to as the order of the function
 - The letter n represents the input size

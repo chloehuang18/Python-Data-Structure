@@ -169,4 +169,5 @@ Download [Stack Answer](stack_answer.py)
 [Figure 1:Money-Stack](https://www.yourconroenews.com/business/bizfeed/article/Mississippi-bank-to-purchase-Houston-s-Icon-Bank-12847400.php)
 
 [Figure 3: FILO](https://en.wikipedia.org/wiki/File:Lifo_stack.png)
+
 [Palindromic sequence](https://en.wikipedia.org/wiki/Palindromic_sequence)

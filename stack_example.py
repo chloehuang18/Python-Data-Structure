@@ -69,6 +69,6 @@ print(new_stack.size()) # expect output: 4
 print("==========================")
 
 
-print("======Test 5 - Size =======")
+print("======Test 5 - Is empty =======")
 print(new_stack.is_empty()) # expect output: FALSE
 print("==========================")

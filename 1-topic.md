@@ -141,7 +141,7 @@ Figure 8 - Is emptys Method
 The performance for this method is also O(1), becasue it index the last item and remove it from the end of the stack whcih happens in constant time.
 
 
-### Performance
+# Performance
 
 #
 
@@ -160,12 +160,13 @@ The performance for this method is also O(1), becasue it index the last item and
 
 #
 ### Challenge - Palindrome
-Download [Stack Challenge](stack_challenage.py)
+Download [Stack Challenge](stack_challenge.py)
 #
-### Answer
+### Resolution
 Download [Stack Answer](stack_answer.py)
 #
 ### Source
 [Figure 1:Money-Stack](https://www.yourconroenews.com/business/bizfeed/article/Mississippi-bank-to-purchase-Houston-s-Icon-Bank-12847400.php)
 
 [Figure 3: FILO](https://en.wikipedia.org/wiki/File:Lifo_stack.png)
+[Palindromic sequence](https://en.wikipedia.org/wiki/Palindromic_sequence)

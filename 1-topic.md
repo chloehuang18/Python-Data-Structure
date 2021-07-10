@@ -2,7 +2,6 @@
 What is the purpose of the data structure?
 
 What is the performance of the data structure (you will need to talk about big O notation)?
-
 What kind of problems can be solved using the data structure?
 
 How would the data structure be used in Python (in some cases you will need to discuss recursion)?
@@ -30,12 +29,12 @@ Resources
 Figure 1 - Money Stack
 
 A stack is a linear abstract data structure. When a new item is added to the stack, it is added from the the right or the top the of the list. It follows the principle of last-in-first-out(LIFO). The most recent item is the one to be removed.  
-![Stack-1](https://github.com/chloehuang18/Python-Data-Structure/blob/master/stack_1.PNG)
+![Stack-1](https://github.com/chloehuang18/Python-Data-Structure/blob/master/stack_1.png)
 Figure 2 - Stack Example
 #
 Let's look at an example diagram. 
 #### 
-![LIFO-1](https://github.com/chloehuang18/Python-Data-Structure/blob/master/stack_lifo.PNG)
+![LIFO-1](https://github.com/chloehuang18/Python-Data-Structure/blob/master/stack_lifo.png)
 Figure 3 - LIFO Principle
 
 #
@@ -77,7 +76,7 @@ def pop(self):
 ```
 Example:
 
-![PushResult](https://github.com/chloehuang18/Python-Data-Structure/blob/master/pop_result.PNG)
+![PopResult](https://github.com/chloehuang18/Python-Data-Structure/blob/master/pop_result.PNG)
 Figure 5 - Pop Method
 
 The performance for this method is also O(1), becasue it index the last item and remove it from the end of the stack whcih happens in constant time.
@@ -95,7 +94,7 @@ def peek(self):
 ```
 Example:
 
-![PushResult](https://github.com/chloehuang18/Python-Data-Structure/blob/master/peek_result.PNG)
+![PeekResult](https://github.com/chloehuang18/Python-Data-Structure/blob/master/peek_result.png)
 Figure 6 - Peek Method
 
 The performance for this method is O(1), becasue it index the last item whcih happens in constant time.
@@ -112,7 +111,7 @@ def size(self):
 ```
 Example:
 
-![PushResult](https://github.com/chloehuang18/Python-Data-Structure/blob/master/size_result.PNG)
+![SizeResult](https://github.com/chloehuang18/Python-Data-Structure/blob/master/size_result.png)
 Figure 7 - Size Method
 
 The performance for this method is O(1), becasue finding the length happens in constant time.
@@ -128,7 +127,7 @@ def is_empty(self):
 ```
 Example:
 
-![PushResult](https://github.com/chloehuang18/Python-Data-Structure/blob/master/emptey_result.PNG)
+![EmptyResult](https://github.com/chloehuang18/Python-Data-Structure/blob/master/empty_result.png)
 Figure 8 - Is emptys Method
 
 The performance for this method is also O(1), becasue it index the last item and remove it from the end of the stack whcih happens in constant time.

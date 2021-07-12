@@ -44,6 +44,7 @@ When we use recursion, we must pay attention to the three laws:
 # Implementation
 This is an example of recursion in action. We would like to create a finction to draw a spiral. We first define the base case - The base case is the exit condition of the recursive algorithm. In line 15, when the line_length is greater than the max_length, the function will do nothing and return.
 Second, we will need to decide what the small problem is, the small problem is to draw the spiral. And lastly, we need to use the recursive call. The function is being called which is the function we are currently using, We pass the length that increments, so that every time the function is call, we pass in an increased line length. 
+[Example File](https://github.com/chloehuang18/Python-Data-Structure/blob/master/recursion.py)
 
 ![Recursion-2](https://github.com/chloehuang18/Python-Data-Structure/blob/master/tree_recursion_code.png)
 

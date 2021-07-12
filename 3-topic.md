@@ -50,6 +50,7 @@ Second, we will need to decide what the small problem is, the small problem is t
  Figure 3 - Recursion Code
 
 Here is the output
+
 ![Recursion-2](https://github.com/chloehuang18/Python-Data-Structure/blob/master/tree_recursion_example.png)
 
  Figure 4 - Recursion Output

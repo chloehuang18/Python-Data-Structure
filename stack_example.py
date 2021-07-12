@@ -1,5 +1,11 @@
-# Create a Stack class and its methods
+"""
+This is the example file for Data structure - Stack
+Chloe Huang
+July, 2021
+"""
 
+
+# Create a Stack class and its methods
 # We will first - Define the class
 class Stack:
 

@@ -8,7 +8,7 @@ How would the data structure be used in Python (in some cases you will need to d
 
 What kind of errors are common when using the data structure? -->
 
-# Table of Contents
+# Table of Contents - Stack
 Stack
 * Introduction
 * Stack of Money
@@ -159,13 +159,13 @@ The performance for this method is also O(1), becasue it index the last item and
 7. Call logs, E-mails, Google photos’ any gallery , YouTube downloads, Notifications ( latest appears first )
 
 #
-### Challenge - Palindrome
+# Prove - Palindrome
 Download [Stack Challenge](stack_challenge.py)
 #
 ### Resolution
 Download [Stack Answer](stack_answer.py)
 #
-### Source
+# Source
 [Figure 1:Money-Stack](https://www.yourconroenews.com/business/bizfeed/article/Mississippi-bank-to-purchase-Houston-s-Icon-Bank-12847400.php)
 
 [Figure 3: FILO](https://en.wikipedia.org/wiki/File:Lifo_stack.png)

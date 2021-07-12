@@ -1,4 +1,10 @@
 """
+This is the challenge file for Data structure - Stack
+Chloe Huang
+July, 2021
+"""
+
+"""
 Repeat sequences of DNA
 
 The meaning of palindrome in the context of genetics is slightly different from the definition used for words and sentences. 

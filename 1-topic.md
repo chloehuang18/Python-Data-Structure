@@ -160,6 +160,19 @@ The performance for this method is also O(1), becasue it index the last item and
 
 #
 # Prove - Palindrome
+Repeat sequences of DNA
+
+The meaning of palindrome in the context of genetics is slightly different from the definition used for words and sentences. 
+Since a double helix is formed by two paired antiparallel strands of nucleotides that run in opposite directions, 
+and the nucleotides always pair in the same way 
+(adenine (A) with thymine (T) in DNA or uracil (U) in RNA; cytosine (C) with guanine (G)), a (single-stranded)
+nucleotide sequence is said to be a palindrome if it is equal to its reverse complement.
+
+![dna](https://github.com/chloehuang18/Python-Data-Structure/blob/master/dna.png)
+
+The challenge is to write a program that use stack to reverse the sequences of DNA.
+
+If the sequences is GGATCC the palindrome sequences will be CCTAGG.
 Download [Stack Challenge](stack_challenge.py)
 #
 ### Resolution

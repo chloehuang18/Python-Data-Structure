@@ -42,7 +42,8 @@ When we use recursion, we must pay attention to the three laws:
 
 #
 # Implementation
-This is an example of recursion in action. We would like to create a finction to draw a spiral. We first define the base case - The base case is the exit condition of the recursive algorithm. In line 15, when the line_length is greater than the max_length, the function will do nothing and return.
+This is an example of recursion in action. We would like to create a finction to draw a same shape spiral. 
+We first define the base case - The base case is the exit condition of the recursive algorithm. In line 15, when the line_length is greater than the max_length, the function will do nothing and return.
 Second, we will need to decide what the small problem is, the small problem is to draw the spiral. And lastly, we need to use the recursive call. The function is being called which is the function we are currently using, We pass the length that increments, so that every time the function is call, we pass in an increased line length. 
 [Example File](https://github.com/chloehuang18/Python-Data-Structure/blob/master/recursion.py)
 
@@ -55,6 +56,30 @@ Here is the output
 ![Recursion-2](https://github.com/chloehuang18/Python-Data-Structure/blob/master/tree_recursion_example.png)
 
  Figure 4 - Recursion Output
+
+#
+# Tree
+# Introduction tree
+# Implementation
+1. Create node class
+```python
+class Node:
+
+    def __init__(self, data):
+        # left child
+        self.left = None
+        # right child
+        self.right = None
+        # node's value
+        self.data = data
+```
+
+2.  Create the insert method that compares the values of the node and decides whether to add the value to the left node or right node.
+
+```python
+
+
+```
 
 #
 ### Real life examples
@@ -83,3 +108,5 @@ Download [Tree Answer](tree_answer.py)
 [Turtle library -1](https://docs.python.org/3/library/turtle.html)
 
 [Turtle library -2](https://realpython.com/beginners-guide-python-turtle/)
+
+[Tree](https://www.educative.io/edpresso/binary-trees-in-python)

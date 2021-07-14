@@ -59,6 +59,9 @@ Here is the output
 
 #
 # Tree
+
+
+
 # Introduction tree
 # Implementation
 1. Create node class
@@ -74,12 +77,40 @@ class Node:
         self.data = data
 ```
 
-2.  Create the insert method that compares the values of the node and decides whether to add the value to the left node or right node.
+2.  Create the insert function that compares the values of the node and decides whether to add the value to the left node or right node.
+
+```python
+def insert(self, data):
+    if self.data:
+        if data < self.data:
+            if self.left is None:
+                self.left = Node(data)
+            else:
+                self.left.insert(data)
+        elif data > self.data:
+            if self.right is None:
+                self.right = Node(data)
+            else:
+                self.right.insert(data)
+    else:
+        self.data = data  
+
+```
+
+3. Traversing a BST 
+
+# Example
+
+We would like to use trees to solve the family tree problem. 
+
+You can see trees as family trees, you are the root and it goes down to your parents, grandparents, and grand-grand-parent, and more. 
+
+
 
 ```python
 
-
 ```
+
 
 #
 ### Real life examples

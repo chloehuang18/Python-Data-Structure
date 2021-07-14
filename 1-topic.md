@@ -173,6 +173,7 @@ nucleotide sequence is said to be a palindrome if it is equal to its reverse com
 The challenge is to write a program that use stack to reverse the sequences of DNA.
 
 If the sequences is GGATCC the palindrome sequences will be CCTAGG.
+
 Download [Stack Challenge](stack_challenge.py)
 #
 ### Resolution

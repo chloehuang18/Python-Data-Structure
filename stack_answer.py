@@ -19,7 +19,6 @@ If the sequences is GGATCC the palindrome sequences will be CCTAGG.
 
 """
 
-
 class Stack:
     def __init__(self):
         self.items = []
@@ -35,6 +34,10 @@ class Stack:
     def is_empty(self):
         return self.items == []
 
+"""
+Problem 1
+Use stack to write a function to find the palindrom of a given DNA sequence
+"""
 def palindrome_dna(stack, input_str):
     
     for i in range(len(input_str)):
@@ -50,7 +53,7 @@ def palindrome_dna(stack, input_str):
 
 """
 Problem 2
-USe stack to write a function to check if a DNA sequences is palindrom
+Use stack to write a function to check if a DNA sequences is palindrom
 """
 def ispalindrome(stack, input_str):
     

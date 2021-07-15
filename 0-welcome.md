@@ -12,7 +12,7 @@ It is a important tool for programmers to anayze the cost of the algorithm. Ever
 ## Topics 
 * [Stack](1-topic.md)
 * [Set](2-topic.md)
-* [Tree](2-topic.md)
+* [Tree](3-topic.md)
 #
 ## Knowledge Base
 #### Python Built_in List Data Type

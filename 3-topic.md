@@ -59,11 +59,17 @@ Here is the output
 
 #
 # Tree
+A tree is a data structure. Unlike the trees we see in the park that have the roota in the soil, in data structure, a tree is upside down that the root is on the top and then expand towards down. Tree is hierachical data structure. With this structure, we can seach for things easily. 
 
+A binary tree is a data structur where every node has at most two children- left and righ. The root of a tree is on the top. 
+![tree_1](tree_1.png)
 
+![tree_1](tree_level.png)
 
 # Introduction tree
 # Implementation
+
+## Build a tree
 1. Create node class
 ```python
 class Node:
@@ -96,6 +102,11 @@ def insert(self, data):
         self.data = data  
 
 ```
+
+## Search a tree
+
+
+###Traversing a tree
 
 3. Traversing a BST 
 

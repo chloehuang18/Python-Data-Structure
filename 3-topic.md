@@ -63,11 +63,17 @@ A tree is a data structure. Unlike the trees we see in the park that have the ro
 
 A binary tree is a data structur where every node has at most two children- left and righ. The root of a tree is on the top. 
 ![tree_1](tree_1.png)
+* Node is the elementary of a binary tree
+* Root is the top element iod a tree. Each tree only has one root
+* Leaf is the node which has no children underneth 
+* Parent is the node that is one level up of the node
+* Child is one level down of a the node
+
 
 ![tree_1](tree_level.png)
+* Level is the generation of the repective node. The root is level 0
+* Balancing the tree makes for better search times O(log(n)) as opposed to O(n)
 
-# Introduction tree
-# Implementation
 
 ## Build a tree
 1. Create node class
@@ -104,23 +110,97 @@ def insert(self, data):
 ```
 
 ## Search a tree
-
-
-###Traversing a tree
-
-3. Traversing a BST 
-
-# Example
-
-We would like to use trees to solve the family tree problem. 
-
-You can see trees as family trees, you are the root and it goes down to your parents, grandparents, and grand-grand-parent, and more. 
-
-
+Search function uses recursion to find the target item on the left side and right side. 
 
 ```python
+def search(self, target):
+    if self.data == target:
+        print("Found it")
+        return self
 
+    if self.left and self.data > target:
+        return self.left.search(target)
+    
+    if selft.right and self.data < tatget:
+        return self.right.search(target)
+    
+    print("Sorry the taget is not found")_
+    
 ```
+
+## Traversing a tree
+ To search the node systematically, there are more than one way to traverse throught the tree. 
+
+ We will introuduct the Preorder traverseal. In a preorder traversal, the root node is visited first, followed by the left child, then the right child.
+
+ ```python
+def traversePreorder(self):
+    print(self.data):
+    if self.left:
+        self.left.traversePreorder
+    if self.right:
+        self.right.traversePreorder
+ ``` 
+
+## Performance 
+
+|Performance |Tree Operation|
+|-----|----|
+|O(log(n)) | insert()  |
+|O(log(n)) | remove()  |
+|O(log(n)) | height()  |
+|O(log(n)) | search()  |
+|O(log(n)) | traverse()  |
+
+# Implementation
+### Example
+```python
+class Node:
+   def __init__(self, data):
+      self.left = None
+      self.right = None
+      self.data = data
+"""
+Compare the new value with the parent node
+If the value of the data is less than current node, insert the data to the left
+"""
+    def insert(self, data):
+	if self.root is None:
+		self.root = BST.Node(data)
+	else:
+		self._insert(data, self.root)  # Start at the root
+
+def _insert(self, data, node):
+	if data < node.data:
+		# the left side.
+		if node.left is None:
+			node.left = BST.Node(data)
+		else:
+			self._insert(data, node.left)
+	elif data >= node.data:
+		if node.right is None:
+			node.right = BST.Node(data)
+		else:
+			self._insert(data, node.right)
+
+# Print the tree
+   def PrintTree(self):
+      if self.left:
+         self.left.PrintTree()
+      print( self.data),
+      if self.right:
+         self.right.PrintTree()
+
+# Use the insert method to add nodes
+root = Node(10)
+root.insert(6)
+root.insert(15)
+root.insert(2)
+root.PrintTree()
+```
+Expect output: 2 6 10 15
+
+
 
 
 #

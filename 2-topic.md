@@ -37,6 +37,7 @@ Output:
 ```
 #
 2. Add
+
 Use add function to add an element to a set
 ```python
 # Adding element to the set
@@ -52,6 +53,7 @@ Output:
 Two sets can be merged using union() function or | operator. 
 Both Hash Table values are accessed and traversed with merge operation perform on them to combine the elements, 
 at the same time duplicates are removed. Time Complexity of this is O(len(s1) + len(s2)) where s1 and s2 are two sets whose union needs to be done.
+
 ![union](set_union.png)
 
 ```python
@@ -73,7 +75,7 @@ set([1, 2, 3, 4, 5, 6, 7, 8])
 #
 4. Intersection
 This can be done through intersection() or & operator. Common Elements are selected.
-![Intersection](set_intersection)
+![Intersection](set_intersection.png)
 ```python
 A={1,2,3,4,5}
 B={4,5,6,7,8}

@@ -41,7 +41,7 @@ Big O notation is a methematiccal method of specifying the performance of an alg
 |O(n) | linear  |..|
 |O(n^2) | quadratic  |..|
 |O(2^n) | exponential  |..|
-
+![big o](big_o.png)
  (https://www.cs.umd.edu/class/summer2015/cmsc132/lectures/lecture18/Big-O.pdf)
 
 ## Tools and Resources

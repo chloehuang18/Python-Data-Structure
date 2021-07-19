@@ -13,9 +13,6 @@ Tree
 * Recursion
 * Tree
 
-Implementation
-
-
 Prove
 * Coding Challenge
 * Resolution
@@ -201,8 +198,6 @@ root.PrintTree()
 Expect output: 2 6 10 15
 
 
-
-
 #
 ### Real life examples
 There are three importna la
@@ -212,10 +207,15 @@ There are three importna la
 3. Most morden programming languages support recursion
 
 
-#### Use family tree as example, the youngest would be the root
-
 #
 # Prove
+The first challenge is to use recursion to write a search function to search the target on the current node, left side of the tree, and right side of the tree. 
+If the target is found, will print "Found it", otherwise print "Not found"o apply what we learn and write a search function to find the target value.
+#
+The second challenge is to write a function to count the height of the tree
+You will need to count both side, and the return the number of the heighter side.
+Write your own test case and return the number of the height.
+#
 ### Challenage
 Download [Tree Challenage](tree_challenage.py)
 

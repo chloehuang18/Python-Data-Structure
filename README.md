@@ -34,13 +34,13 @@ Big O notation is a methematiccal method of specifying the performance of an alg
 
 2. The performance 
 
-|Performance |Run Time|Description|
-|-----|----|----|
-|O(1) | constant  |..| 
-|O(log(n)) | log  |..|
-|O(n) | linear  |..|
-|O(n^2) | quadratic  |..|
-|O(2^n) | exponential  |..|
+|Performance |Run Time|
+|-----|----|
+|O(1) | constant  |
+|O(log(n)) | log  |
+|O(n) | linear  |
+|O(n^2) | quadratic  |
+|O(2^n) | exponential  |
 ![big o](big_o.png)
  (https://www.cs.umd.edu/class/summer2015/cmsc132/lectures/lecture18/Big-O.pdf)
 

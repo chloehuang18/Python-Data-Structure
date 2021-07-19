@@ -215,6 +215,9 @@ If the target is found, will print "Found it", otherwise print "Not found"o appl
 The second challenge is to write a function to count the height of the tree
 You will need to count both side, and the return the number of the heighter side.
 Write your own test case and return the number of the height.
+
+Note: It is impoertant to have a balanced tree when using tree data structure. 
+Finding heights for both sides can help us to see if the levela are unbalanced. If it's unbalanced we will need to rebalance the tree. 
 #
 ### Challenage
 Download [Tree Challenage](tree_challenage.py)

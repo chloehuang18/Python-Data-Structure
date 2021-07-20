@@ -171,7 +171,7 @@ Problem 1: Figure out what you don't need to buy at walmart without using the bu
 Problem 2: Use build in function to get the shopping list that you need to buy
 
 #
-Download [Set Challenge](set_challenage.py)
+Download [Set Challenge](https://github.com/chloehuang18/Python-Data-Structure/blob/master/set_challenge.py)
 #
 ### Answer
-Download [Set Answer](set_answer.py)
+Download [Set Answer](https://github.com/chloehuang18/Python-Data-Structure/blob/master/set_answer.py)

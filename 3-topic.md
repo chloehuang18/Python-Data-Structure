@@ -195,7 +195,10 @@ root.insert(15)
 root.insert(2)
 root.PrintTree()
 ```
-Expect output: 2 6 10 15
+Expect output: 
+```python
+2 6 10 15
+```
 
 
 #

@@ -74,8 +74,11 @@ set([1, 2, 3, 4, 5, 6, 7, 8])
 ```
 #
 4. Intersection
+
 This can be done through intersection() or & operator. Common Elements are selected.
+
 ![Intersection](set_intersection.png)
+
 ```python
 A={1,2,3,4,5}
 B={4,5,6,7,8}
@@ -93,6 +96,7 @@ set([4, 5])
 ```
 #
 5. Difference
+
 Difference of A and B (A — B) is a set of elements that are only in A but not in B. Similarly,
  B — A is a set of element in B but not in A.
 Difference is performed using — operator. 
@@ -116,10 +120,59 @@ set([8, 6, 7])
 
 #
 ### Performance
+|Performance |Set Operation|
+|-----|----|
+|O(1)) | add()  |
+|O(1)) | remove()  |
+|O(1) | union()  |
+|O(1) | intersection()  |
+|O(1) | difference()  |
+
 #
 ### Examples
+You are going to a party, and you and your friend Bob both listed your favorite colors to wear. 
+You don't want to dress the same colors as him so you decide to write a program to find out all the colors you like but Bob doesn't like.
+
+Your color : "Yellow","Navy Blue", "Gold","Black", "Pink", "White"
+Bob's color : "White", "Blue", "Black", "Green", "Red", "Black"
+
+Hint: USe difference function
+
+Answer:
+```python
+myColor = {"Yellow","Navy Blue", "Gold","Black", "Pink", "White"}
+bobColor = {"White", "Blue", "Black", "Green", "Red", "Black"}
+
+print(myColor - bobColor)
+```
+Output:
+
+```python
+ The order might not be the same
+set(['Pink', 'Navy Blue', 'Yellow', 'Gold'])
+```
+
 #
 ### Challenge
+You are hosting a potluck in the end of the semester. You plan to prepare three dishes and write down the receipes. 
+You are going to walmart and need to find out what do you need to buy.
+
+Here are the lists of the things you have in your kitchen:
+mykitchen = {"oil", "salt", "sugar", "soy sause", "black paper", "honey", "rice"}
+myfridge = {"egg", "milk", "yogurt", "blueberry", "ground beef", "mayo", "butter"}
+
+Three receipes:
+koreanBBQ = {"onion", "ribeye steak", "pear", "brown sugar", "sesame oil", "sesame seed"}
+firedRice = {"butter", "egg", "carrot", "onion", "frozen peas", "garlic", "salt", "black pepper", "rice", "soy sauce", "sesame oil"}
+blueberryIce = {"blueberry", "heavy whipping cream", "half-and-half cream", "sugar", "vanilla extract"}
+
+Problem 1: Figure out what you need to buy at walmart
+
+
+
+Problem 2: 
+
+#
 Download [Set Challenge](set_challenage.py)
 #
 ### Answer

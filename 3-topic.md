@@ -223,11 +223,11 @@ Note: It is impoertant to have a balanced tree when using tree data structure.
 Finding heights for both sides can help us to see if the levela are unbalanced. If it's unbalanced we will need to rebalance the tree. 
 #
 ### Challenage
-Download [Tree Challenage](tree_challenage.py)
+Download [Tree Challenage](https://github.com/chloehuang18/Python-Data-Structure/blob/master/tree_challenge.py)
 
 #
 ### Answer
-Download [Tree Answer](tree_answer.py)
+Download [Tree Answer](https://github.com/chloehuang18/Python-Data-Structure/blob/master/tree_answer.py)
 
 #
 # Source

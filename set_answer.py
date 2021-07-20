@@ -1,11 +1,17 @@
 """
+This is the challenge file for Data structure - Set
+Chloe Huang
+July, 2021
+"""
+
+
+
+"""
 Set: You are hosting a potluck in the end of the semester. You plan to prepare three dishes and write down the receipes. 
 You are going to walmart and need to find out what do you need to buy.
-"""
 
-
-"""
 Create a function to perform the union between 2 sets. 
+Problem 1: Figure out what you need to buy at walmart
 """
 def union_list(set1, set2):
     result = set(set1)
@@ -18,7 +24,7 @@ def union_list(set1, set2):
 
 
 
-# Problem 1: Figure out what you need to buy at walmart
+
 
 # Current have
 mykitchen = {"oil", "salt", "sugar", "soy sause", "black paper", "honey", "rice"}

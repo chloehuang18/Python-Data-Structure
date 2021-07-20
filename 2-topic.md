@@ -166,11 +166,9 @@ koreanBBQ = {"onion", "ribeye steak", "pear", "brown sugar", "sesame oil", "sesa
 firedRice = {"butter", "egg", "carrot", "onion", "frozen peas", "garlic", "salt", "black pepper", "rice", "soy sauce", "sesame oil"}
 blueberryIce = {"blueberry", "heavy whipping cream", "half-and-half cream", "sugar", "vanilla extract"}
 
-Problem 1: Figure out what you need to buy at walmart
+Problem 1: Figure out what you don't need to buy at walmart without using the build in function
 
-
-
-Problem 2: 
+Problem 2: Use build in function to get the shopping list that you need to buy
 
 #
 Download [Set Challenge](set_challenage.py)
